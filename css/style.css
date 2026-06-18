@@ -22,10 +22,11 @@
 
 body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-main);
   font-weight: 500;
   font-size: 0.875rem;
-  font-weight: 500;
   line-height: 1.6;
   background-color: var(--color-cream);
   color: var(--color-grey);
@@ -43,7 +44,7 @@ button {
 }
 
 .main {
-  min-height: 100vh;
+  flex: 1;
   display: grid;
   place-items: center;
   padding: 1.75rem 1rem;
